@@ -1,2 +1,2 @@
 # kvmadmingui
-GUI for the kvmadmin utility built with Powershell
+GUI for the kvmadmin utility built with Powershell + Windows Forms
