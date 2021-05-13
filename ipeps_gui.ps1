@@ -8,13 +8,12 @@ Add-Type -AssemblyName System.Drawing
 $iconPS = [Drawing.Icon]::ExtractAssociatedIcon((Get-Command powershell).Path)
 
 # Define the default IP address and password of the iPEPS device
-#$iPEPS_IP = 192.168.1.42
-$iPEPS_IP = "10.0.0.112"
+$iPEPS_IP = 192.168.1.42
 $iPEPS_PW = "P4ssword_"
 
 # We're keeping the kvmadmin executable next to our PS script
 $kvmadmin  = $PSScriptRoot+"\kvmadmin.exe"
-$usersfile = $PSScriptRoot+"\users2.csv"
+$usersfile = $PSScriptRoot+"\users.csv"
 
 # Images for the basic UI buttons
 $a_image_path = $PSScriptRoot+"\ipeps_analog.png"
